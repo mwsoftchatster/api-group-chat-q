@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  group_chat_q:
+    image: chatster/api-group-chat-q
+    build: .
+    container_name: group_chat_q
+    ports:
+      - 7100:7100
+      - 2990:2990
